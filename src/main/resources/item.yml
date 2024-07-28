@@ -1,0 +1,116 @@
+_FINALTECH_ITEM_DISMANTLE_TABLE:
+  allowed-recipe-type:
+    - 'enhanced_crafting_table'
+    - 'grind_stone'
+    - 'armor_forge'
+    - 'ore_crusher'
+    - 'compressor'
+    - 'smeltery'
+    - 'pressure_chamber'
+    - 'magic_workbench'
+    - 'gold_pan'
+    - 'juicer'
+    - 'ancient_altar'
+    - 'heated_pressure_chamber'
+    - 'food_fabricator'
+    - 'food_composter'
+    - 'freezer'
+  not-allowed-id:
+    - 'GOLD_DUST'
+    - 'IRON_DUST'
+_FINALTECH_AUTO_ITEM_DISMANTLE_TABLE:
+  allowed-recipe-type:
+    - 'enhanced_crafting_table'
+    - 'grind_stone'
+    - 'armor_forge'
+    - 'ore_crusher'
+    - 'compressor'
+    - 'smeltery'
+    - 'pressure_chamber'
+    - 'magic_workbench'
+    - 'gold_pan'
+    - 'juicer'
+    - 'ancient_altar'
+    - 'heated_pressure_chamber'
+    - 'food_fabricator'
+    - 'food_composter'
+    - 'freezer'
+  not-allowed-id:
+    - 'GOLD_DUST'
+    - 'IRON_DUST'
+_FINALTECH_ADVANCED_AUTO_CRAFT:
+  recipe-type-id:
+    - '_FINALTECH_matrix_crafting_table'
+_FINALTECH_MATRIX_ITEM_DISMANTLE_TABLE:
+  not-allowed-recipe-type:
+    - 'singularity_constructor'
+  not-allowed-id:
+    - 'GOLD_DUST'
+    - 'IRON_DUST'
+_FINALTECH_MULTI_FRAME_MACHINE:
+  allowed-id:
+    - '_FINALTECH_ADVANCED_COMPOSTER'
+    - '_FINALTECH_ADVANCED_JUICER'
+    - '_FINALTECH_ADVANCED_FURNACE'
+    - '_FINALTECH_ADVANCED_GOLD_PAN'
+    - '_FINALTECH_ADVANCED_DUST_WASHER'
+    - '_FINALTECH_ADVANCED_INGOT_FACTORY'
+    - '_FINALTECH_ADVANCED_CRUCIBLE'
+    - '_FINALTECH_ADVANCED_ORE_GRINDER'
+    - '_FINALTECH_ADVANCED_HEATED_PRESSURE_CHAMBER'
+    - '_FINALTECH_ADVANCED_INGOT_PULVERIZER'
+    - '_FINALTECH_ADVANCED_AUTO_DRIER'
+    - '_FINALTECH_ADVANCED_PRESS'
+    - '_FINALTECH_ADVANCED_FOOD_FACTORY'
+    - '_FINALTECH_ADVANCED_FREEZER'
+    - '_FINALTECH_ADVANCED_CARBON_PRESS'
+    - '_FINALTECH_ADVANCED_SMELTERY'
+    - '_FINALTECH_ADVANCED_DUST_FACTORY'
+_FINALTECH_MACHINE_CONFIGURATOR:
+  item-config:
+    cargo-node:
+      - 'CARGO_NODE_INPUT'
+      - 'CARGO_NODE_OUTPUT'
+      - 'CARGO_NODE_OUTPUT_ADVANCED'
+    advanced-machine:
+      - '_FINALTECH_ADVANCED_COMPOSTER'
+      - '_FINALTECH_ADVANCED_JUICER'
+      - '_FINALTECH_ADVANCED_FURNACE'
+      - '_FINALTECH_ADVANCED_GOLD_PAN'
+      - '_FINALTECH_ADVANCED_DUST_WASHER'
+      - '_FINALTECH_ADVANCED_INGOT_FACTORY'
+      - '_FINALTECH_ADVANCED_CRUCIBLE'
+      - '_FINALTECH_ADVANCED_ORE_GRINDER'
+      - '_FINALTECH_ADVANCED_HEATED_PRESSURE_CHAMBER'
+      - '_FINALTECH_ADVANCED_INGOT_PULVERIZER'
+      - '_FINALTECH_ADVANCED_AUTO_DRIER'
+      - '_FINALTECH_ADVANCED_PRESS'
+      - '_FINALTECH_ADVANCED_FOOD_FACTORY'
+      - '_FINALTECH_ADVANCED_FREEZER'
+      - '_FINALTECH_ADVANCED_CARBON_PRESS'
+      - '_FINALTECH_ADVANCED_SMELTERY'
+      - '_FINALTECH_ADVANCED_DUST_FACTORY'
+      - '_FINALTECH_ADVANCED_COMPOSTER'
+      - '_FINALTECH_ADVANCED_COMPOSTER'
+    ft-cargo-point:
+      - '_FINALTECH_POINT_TRANSFER'
+      - '_FINALTECH_ADVANCED_POINT_TRANSFER'
+    ft-cargo-mesh:
+      - '_FINALTECH_MESH_TRANSFER'
+      - '_FINALTECH_ADVANCED_MESH_TRANSFER'
+    ft-cargo-line:
+      - '_FINALTECH_LINE_TRANSFER'
+      - '_FINALTECH_ADVANCED_LINE_TRANSFER'
+    ft-cargo-location:
+      - '_FINALTECH_LOCATION_TRANSFER'
+      - '_FINALTECH_ADVANCED_LOCATION_TRANSFER'
+_FINALTECH_ROUTE_VIEWER:
+  allowed-id:
+    - '_FINALTECH_POINT_TRANSFER'
+    - '_FINALTECH_ADVANCED_POINT_TRANSFER'
+    - '_FINALTECH_MESH_TRANSFER'
+    - '_FINALTECH_ADVANCED_MESH_TRANSFER'
+    - '_FINALTECH_LINE_TRANSFER'
+    - '_FINALTECH_ADVANCED_LINE_TRANSFER'
+    - '_FINALTECH_LOCATION_TRANSFER'
+    - '_FINALTECH_ADVANCED_LOCATION_TRANSFER'

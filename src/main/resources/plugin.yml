@@ -1,0 +1,47 @@
+name: FinalTECH-Changed
+
+authors: [Final_ROOT, QYhB05]
+
+description: About making the world faster
+
+main: io.taraxacum.finaltech.FinalTechChanged
+
+
+version: ${project.version}
+
+api-version: 1.17
+
+depend:
+  - Slimefun
+
+commands:
+  finaltech-copy-card:
+    description: Transform a valid item to a copy card
+    usage: /<command>
+    permission: finaltech.item.copy-card
+  finaltech-storage-card:
+    description: Transform a valid item to a storage card with given amount
+    usage: /<command> <amount>
+    permission: finaltech.item.storage-card
+  finaltech-info:
+    description: Show info about the item if it's from slimefun
+    usage: /<command>
+    permission: finaltech.item.info
+  finaltech-valid-item:
+    description: Make an item valid
+    usage: /<command>
+    permission: finaltech.valid.item
+
+permissions:
+  finaltech.item.copy-card:
+    description: Transform a valid item to a copy card
+    default: op
+  finaltech.item.storage-card:
+    description: Transform a valid item to a storage card with given amount
+    default: op
+  finaltech.item.info:
+    description: Show info about the item if it's from slimefun
+    default: true
+  finaltech.valid.item:
+    description: Make an item valid
+    default: true
