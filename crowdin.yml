@@ -1,0 +1,6 @@
+pull_request_title: 'i18n: update crowdin translation'
+commit_message: 'i18n: update translations for `%language%`'
+append_commit_message:
+files:
+  - source: /src/main/resources/language/zh-CN.yml
+    translation: /src/main/resources/language/%locale%.yml
