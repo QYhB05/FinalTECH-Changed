@@ -108,7 +108,7 @@ public class OverloadedAccelerator extends AbstractCubeMachine implements Recipe
                                 int machineEnergy = energy;
                                 int currentMachineEnergy;
                                 int times = 1;
-                                while (machineEnergy >= capacity) {
+                                while (machineEnergy >= capacity * 0.8) {
                                     blockTicker.tick(machineBlock, locationInfo.getSlimefunItem(), locationInfo.getConfig());
                                     currentMachineEnergy = Integer.parseInt(EnergyUtil.getCharge(locationInfo.getLocation()));
                                     if (machineEnergy == currentMachineEnergy) {
