@@ -1,7 +1,7 @@
 # FinalTECH-Changed
 对于乱序技艺(FinalTECH)进行最新版的简中粘液适配,同时进行大量平衡性魔改,bug修复
 
-原作者Final_ROOT库已删除/私有
+原作者Final_ROOT关于乱序技艺库已删除/私有(github上只有克隆版本)
 
 基于Final_ROOT的乱序技艺(FinalTECH)构建75版本, 进行大量的参数调整, 配方平衡性调整, 机制合理化, 修复了部分bug, 完善了汉化以及纠正补全了汉化描述
 
