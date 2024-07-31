@@ -56,7 +56,7 @@ public class Justifiability extends UnusableSlimefunItem implements RecipeItem, 
                         }
                         i--;
                         BlockStorage.addBlockInfo(b.getLocation(), "life", String.valueOf(i));
-                    } else BlockStorage.addBlockInfo(b.getLocation(), "life", "256");
+                    } else BlockStorage.addBlockInfo(b.getLocation(), "life", "5");
                 } catch (Exception ignore) {
                 }
             }
