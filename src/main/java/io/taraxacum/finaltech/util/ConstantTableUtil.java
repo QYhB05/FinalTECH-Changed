@@ -19,5 +19,5 @@ public class ConstantTableUtil {
 
     public static final int ITEM_MAX_STACK = 64;
 
-    public static final double WARNING_TPS = 19.5;
+    public static final double WARNING_TPS = 10.5;
 }
