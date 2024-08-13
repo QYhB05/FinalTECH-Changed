@@ -66,7 +66,7 @@ public class EquivalentExchangeTable extends AbstractManualMachine implements Re
                 }
                 value = this.doCraft(value, blockMenu, itemStack.getAmount());
                 itemStack.setAmount(0);
-                continue;
+                break;
             }
 
             SlimefunItem sfItem = SlimefunItem.getByItem(itemStack);
