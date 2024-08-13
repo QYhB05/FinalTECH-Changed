@@ -82,12 +82,15 @@ public class ShineListener implements Listener {
             Location location = entity.getLocation();
             if (entity instanceof Player player && location.getWorld() != null && location.getY() < location.getWorld().getMinHeight() - 64) {
                 boolean haveBox = false;
+                boolean haveShine = false;
                 int shineCount = 0;
                 for (ItemStack itemStack : player.getInventory().getContents()) {
                     if (!haveBox && FinalTechItems.BOX.verifyItem(itemStack)) {
                         haveBox = true;
+                        itemStack.setAmount(0);
                     } else if (FinalTechItems.SHINE.verifyItem(itemStack)) {
                         shineCount += itemStack.getAmount();
+                        haveShine = true;
                     }
                 }
                 if (haveBox || shineCount > 0) {
@@ -110,12 +113,13 @@ public class ShineListener implements Listener {
                         player.setVelocity(nowVector);
                         PlayerInventory playerInventory = player.getInventory();
                         int[] ints = JavaUtil.generateRandomInts(playerInventory.getSize() - playerInventory.getArmorContents().length);
-                        for (int anInt : ints) {
-                            if (ItemStackUtil.isItemNull(playerInventory.getItem(anInt))) {
-                                playerInventory.setItem(anInt, ItemStackUtil.cloneItem(FinalTechItems.SHINE.getValidItem(), 1));
-                                break;
+                        if (!haveShine)
+                            for (int anInt : ints) {
+                                if (ItemStackUtil.isItemNull(playerInventory.getItem(anInt))) {
+                                    playerInventory.setItem(anInt, ItemStackUtil.cloneItem(FinalTechItems.SHINE.getValidItem(), 1));
+                                    break;
+                                }
                             }
-                        }
                         obtain++;
                         this.obtainCount.put(player, obtain);
                     }
