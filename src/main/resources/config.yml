@@ -42,6 +42,11 @@ tweak:
       mul-range: 0
       drop-self: true
       message: '{1} 不被允许放的太近 ;)'
+    _FINALTECH_EQUIVALENT_EXCHANGE_TABLE:
+      range: 512
+      mul-range: 0
+      drop-self: true
+      message: '{1} 不被允许放的太近 ;)'
   performance-limit:
     item:
       - '_FINALTECH_ORDERED_DUST_FACTORY_DIRT'
