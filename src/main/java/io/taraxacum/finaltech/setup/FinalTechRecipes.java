@@ -824,7 +824,7 @@ public final class FinalTechRecipes {
             SlimefunItems.PORTABLE_DUSTBIN, new ItemStack(Material.COBBLESTONE), SlimefunItems.PORTABLE_DUSTBIN,
             SlimefunItems.PORTABLE_DUSTBIN, SlimefunItems.PORTABLE_DUSTBIN, SlimefunItems.PORTABLE_DUSTBIN
     };
-    public static final ItemStack[] EQUIVALENT_EXCHANGE_TABLE = new ItemStack[]{
+    public static final ItemStack[] EQUIVALENT_EXCHANGE_TABLE = new ItemStack[]{  
             FinalTechItemStacks.BOX, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.BOX,
             FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ENERGY_CARD_B, FinalTechItemStacks.UNORDERED_DUST, FinalTechItemStacks.UNORDERED_DUST, FinalTechItemStacks.ENERGY_CARD_B, FinalTechItemStacks.GEARWHEEL,
             FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.UNORDERED_DUST, FinalTechItemStacks.SHINE, FinalTechItemStacks.SHINE, FinalTechItemStacks.UNORDERED_DUST, FinalTechItemStacks.GEARWHEEL,
@@ -834,10 +834,10 @@ public final class FinalTechRecipes {
     };
     public static final ItemStack[] ITEM_SERIALIZATION_CONSTRUCTOR = new ItemStack[]{
             FinalTechItemStacks.BOX, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.BOX,
-            FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ENERGY_CARD_B, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.ENERGY_CARD_B, FinalTechItemStacks.GEARWHEEL,
-            FinalTechItemStacks.GEARWHEEL, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), null, null, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.GEARWHEEL,
-            FinalTechItemStacks.GEARWHEEL, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), null, null, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.GEARWHEEL,
-            FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ENERGY_CARD_B, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.ENERGY_CARD_B , FinalTechItemStacks.GEARWHEEL,
+            FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ENERGY_CARD_B, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 10), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 10), FinalTechItemStacks.ENERGY_CARD_B, FinalTechItemStacks.GEARWHEEL,
+            FinalTechItemStacks.GEARWHEEL, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 10), FinalTechItemStacks.BUG, FinalTechItemStacks.BUG, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 10), FinalTechItemStacks.GEARWHEEL,
+            FinalTechItemStacks.GEARWHEEL, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 10), FinalTechItemStacks.BUG, FinalTechItemStacks.BUG, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 10), FinalTechItemStacks.GEARWHEEL,
+            FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ENERGY_CARD_B, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 10), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 10), FinalTechItemStacks.ENERGY_CARD_B , FinalTechItemStacks.GEARWHEEL,
             FinalTechItemStacks.BOX, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.BOX
     };
     public static final ItemStack[] ITEM_DESERIALIZE_PARSER = new ItemStack[]{
@@ -849,12 +849,12 @@ public final class FinalTechRecipes {
             FinalTechItemStacks.ORDERED_DUST, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ORDERED_DUST
     };
     public static final ItemStack[] ETHER_MINER = new ItemStack[]{
-            FinalTechItemStacks.ORDERED_DUST, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ORDERED_DUST,
+            FinalTechItemStacks.BUG, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.BUG,
             FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ORDERED_DUST, FinalTechItemStacks.ENERGY_CARD_M, FinalTechItemStacks.ENERGY_CARD_M, FinalTechItemStacks.ORDERED_DUST, FinalTechItemStacks.GEARWHEEL,
             FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.BOX, ItemStackUtil.cloneItem(FinalTechItemStacks.SHINE, 2), ItemStackUtil.cloneItem(FinalTechItemStacks.SHINE, 2), FinalTechItemStacks.BOX, FinalTechItemStacks.GEARWHEEL,
             FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.BOX, ItemStackUtil.cloneItem(FinalTechItemStacks.SHINE, 2), ItemStackUtil.cloneItem(FinalTechItemStacks.SHINE, 2), FinalTechItemStacks.BOX, FinalTechItemStacks.GEARWHEEL,
             FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ORDERED_DUST, FinalTechItemStacks.ENERGY_CARD_M, FinalTechItemStacks.ENERGY_CARD_M, FinalTechItemStacks.ORDERED_DUST, FinalTechItemStacks.GEARWHEEL,
-            FinalTechItemStacks.ORDERED_DUST, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ORDERED_DUST
+            FinalTechItemStacks.BUG, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.BUG
     };
 
     public static final ItemStack[] ENERGY_TABLE = new ItemStack[]{
@@ -871,10 +871,10 @@ public final class FinalTechRecipes {
     };
     public static final ItemStack[] ITEM_DISMANTLE_TABLE = new ItemStack[]{
             FinalTechItemStacks.ORDERED_DUST, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ORDERED_DUST,
-            FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ETHER, FinalTechItemStacks.ENERGY_CARD_K, FinalTechItemStacks.ENERGY_CARD_K, FinalTechItemStacks.ETHER, FinalTechItemStacks.GEARWHEEL,
+            FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.BUG, FinalTechItemStacks.ENERGY_CARD_K, FinalTechItemStacks.ENERGY_CARD_K, FinalTechItemStacks.BUG, FinalTechItemStacks.GEARWHEEL,
             FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ETHER, new CustomItemStack(Material.CRAFTING_TABLE), new CustomItemStack(Material.CRAFTING_TABLE), FinalTechItemStacks.ETHER, FinalTechItemStacks.GEARWHEEL,
             FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ETHER, new CustomItemStack(Material.CRAFTING_TABLE), new CustomItemStack(Material.CRAFTING_TABLE), FinalTechItemStacks.ETHER, FinalTechItemStacks.GEARWHEEL,
-            FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ETHER, FinalTechItemStacks.ENERGY_CARD_K, FinalTechItemStacks.ENERGY_CARD_K, FinalTechItemStacks.ETHER, FinalTechItemStacks.GEARWHEEL,
+            FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.BUG, FinalTechItemStacks.ENERGY_CARD_K, FinalTechItemStacks.ENERGY_CARD_K, FinalTechItemStacks.BUG, FinalTechItemStacks.GEARWHEEL,
             FinalTechItemStacks.ORDERED_DUST, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.GEARWHEEL, FinalTechItemStacks.ORDERED_DUST
     };
     public static final ItemStack[] AUTO_ITEM_DISMANTLE_TABLE = new ItemStack[]{
@@ -943,27 +943,27 @@ public final class FinalTechRecipes {
             FinalTechItemStacks.ETHER, FinalTechItemStacks.ETHER, FinalTechItemStacks.ETHER, FinalTechItemStacks.ETHER, FinalTechItemStacks.ETHER, FinalTechItemStacks.ETHER,
     };
     public static final ItemStack[] OPERATION_ACCELERATOR = new ItemStack[]{
-            ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 6), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 6), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), null,
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 6), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 6), null,
-            ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8), FinalTechItemStacks.ANNULAR, ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), null,
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 6), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 6), null,
-            ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 6), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 6), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), null,
+            ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), null,
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 12), null,
+            ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 16), FinalTechItemStacks.ANNULAR, ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), null,
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 12), null,
+            ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 12), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), null,
     };
     public static final ItemStack[] ENERGIZED_OPERATION_ACCELERATOR = new ItemStack[]{
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.OPERATION_ACCELERATOR, FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.OPERATION_ACCELERATOR, FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3)
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8),
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), FinalTechItemStacks.OPERATION_ACCELERATOR, FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), FinalTechItemStacks.OPERATION_ACCELERATOR, FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8)
     };
     public static final ItemStack[] OVERLOADED_OPERATION_ACCELERATOR = new ItemStack[]{
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.OPERATION_ACCELERATOR, FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), FinalTechItemStacks.OPERATION_ACCELERATOR, FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
-            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3)
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8),
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), FinalTechItemStacks.OPERATION_ACCELERATOR, FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), FinalTechItemStacks.OPERATION_ACCELERATOR, FinalTechItemStacks.OPERATION_ACCELERATOR, ItemStackUtil.cloneItem(FinalTechItemStacks.ETHER, 16), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3),
+            ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 3), ItemStackUtil.cloneItem(FinalTechItemStacks.BUG, 8)
     };
 
     // tower
