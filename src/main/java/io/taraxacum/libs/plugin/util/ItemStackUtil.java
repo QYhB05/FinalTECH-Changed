@@ -917,7 +917,7 @@ public final class ItemStackUtil {
     @Nonnull
     public static String itemStackToString(@Nonnull ItemStack itemStack) {
         YamlConfiguration yamlConfiguration = new YamlConfiguration();
-        yamlConfiguration.set("item", itemStack);
+        yamlConfiguration.set("item", ItemStackUtil.cleanItem(itemStack));
         return yamlConfiguration.saveToString();
     }
 
